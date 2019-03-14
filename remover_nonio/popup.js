@@ -9,7 +9,7 @@
 		  {code: 'document.getElementById("layer_gatting").remove();'+
 				  'document.getElementsByTagName("body")[0].style = "overflow:auto";'+
 				  'document.getElementsByTagName("html")[0].style = "overflow:auto";'+
-				  'window.alert("queres o que nónio?");'
+				  'window.alert("ja foste neca?");'
 				  
 			}
 		  );

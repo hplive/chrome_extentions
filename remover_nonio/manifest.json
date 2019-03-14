@@ -1,7 +1,7 @@
   {
-    "name": "Remover Nonio by HP",
+    "name": "Remover Nónio by HP",
     "version": "1.0.0",
-    "description": "Remover nonio sem login ou registo!",
+    "description": "Remover nónio sem login ou registo!",
     "permissions": ["activeTab", "declarativeContent", "storage"],
     "background": {
       "scripts": ["background.js"],
