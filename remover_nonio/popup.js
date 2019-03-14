@@ -8,8 +8,7 @@
           //{code: ''},
 		  {code: 'document.getElementById("layer_gatting").remove();'+
 				  'document.getElementsByTagName("body")[0].style = "overflow:auto";'+
-				  'document.getElementsByTagName("html")[0].style = "overflow:auto";'+
-				  'window.alert("ja foste neca?");'
+				  'document.getElementsByTagName("html")[0].style = "overflow:auto";'
 				  
 			}
 		  );
