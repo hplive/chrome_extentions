@@ -14,6 +14,28 @@
 		  );
     });
 	}
+
+
+
+	let jn= document.getElementById('jn');
+		jn.onclick = function(element) {
+		//let color = element.target.value;
+		chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
+		  chrome.tabs.executeScript(
+			  //tabs[0].id,
+			  //{code: ''},
+			  {code:  'document.getElementsByClassName("tp-modal")[0].remove();'+
+					  'document.getElementsByClassName("tp-backdrop")[0].remove();'+
+					  'document.getElementsByTagName("body")[0].classList.remove("tp-modal-open");'+
+					  'document.getElementsByTagName("body")[0].style = "overflow:auto";'
+					  
+				}
+			  );
+		});
+		}
+
+	
+	
 	
   // let changeColor = document.getElementById('changeColor');
 

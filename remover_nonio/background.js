@@ -5,10 +5,14 @@
 	
     chrome.declarativeContent.onPageChanged.removeRules(undefined, function() {
       chrome.declarativeContent.onPageChanged.addRules([{
-        conditions: [new chrome.declarativeContent.PageStateMatcher({
-          //pageUrl: {hostEquals: 'developer.chrome.com'},
-		  pageUrl: {hostEquals: 'www.record.pt'},
-        })
+        conditions: 
+		[
+			new chrome.declarativeContent.PageStateMatcher({
+				pageUrl: {hostEquals: 'www.record.pt'},
+			}),
+			new chrome.declarativeContent.PageStateMatcher({
+				pageUrl: {hostEquals: 'www.jn.pt'},
+			})
         ],
             actions: [new chrome.declarativeContent.ShowPageAction()]
       }]);
