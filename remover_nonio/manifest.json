@@ -1,7 +1,7 @@
   {
-    "name": "Remover Nónio by HP",
-    "version": "1.0.0",
-    "description": "Remover nónio sem login ou registo!",
+    "name": "Remover Nonio",
+    "version": "2.0.0",
+    "description": "Não te registes no Nonio! Quando aparecer o nonio clicas para o remover. Não fica a executar sempre em 2º plano, como os outros...",
     "permissions": ["activeTab", "declarativeContent", "storage"],
     "background": {
       "scripts": ["background.js"],
@@ -23,5 +23,6 @@
       "48": "images/get_started48.png",
       "128": "images/get_started128.png"
     },
+	
     "manifest_version": 2
   }
