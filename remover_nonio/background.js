@@ -36,46 +36,46 @@
 				pageUrl: {hostEquals: 'radiocomercial.iol.pt'},
 			}),
 			new chrome.declarativeContent.PageStateMatcher({
-				pageUrl: {hostEquals: 'aquelamaquina.pt'},
+				pageUrl: {hostEquals: 'www.aquelamaquina.pt'},
 			}),
 			new chrome.declarativeContent.PageStateMatcher({
 				pageUrl: {hostEquals: 'autoportal.iol.pt'},
 			}),
 			new chrome.declarativeContent.PageStateMatcher({
-				pageUrl: {hostEquals: 'classificadoscm.pt'},
+				pageUrl: {hostEquals: 'www.classificadoscm.pt'},
 			}),
 			new chrome.declarativeContent.PageStateMatcher({
-				pageUrl: {hostEquals: 'cmjornal.pt'},
+				pageUrl: {hostEquals: 'www.cmjornal.pt'},
 			}),
 			new chrome.declarativeContent.PageStateMatcher({
 				pageUrl: {hostEquals: 'www.dinheirovivo.pt'},
 			}),
 			new chrome.declarativeContent.PageStateMatcher({
-				pageUrl: {hostEquals: 'dn.pt'},
+				pageUrl: {hostEquals: 'www.dn.pt'},
 			}),
 			new chrome.declarativeContent.PageStateMatcher({
 				pageUrl: {hostEquals: 'expresso.pt'},
 			}),
 			new chrome.declarativeContent.PageStateMatcher({
-				pageUrl: {hostEquals: 'flash.pt'},
+				pageUrl: {hostEquals: 'www.flash.pt'},
 			}),
 			new chrome.declarativeContent.PageStateMatcher({
-				pageUrl: {hostEquals: 'jornaldenegocios.pt'},
+				pageUrl: {hostEquals: 'www.jornaldenegocios.pt'},
 			}),
 			new chrome.declarativeContent.PageStateMatcher({
 				pageUrl: {hostEquals: 'maisfutebol.iol.pt'},
 			}),
 			new chrome.declarativeContent.PageStateMatcher({
-				pageUrl: {hostEquals: 'maxima.pt'},
+				pageUrl: {hostEquals: 'www.maxima.pt'},
 			}),
 			new chrome.declarativeContent.PageStateMatcher({
 				pageUrl: {hostEquals: 'megahits.sapo.pt'},
 			}),
 			new chrome.declarativeContent.PageStateMatcher({
-				pageUrl: {hostEquals: 'motor24.pt'},
+				pageUrl: {hostEquals: 'www.motor24.pt'},
 			}),
 			new chrome.declarativeContent.PageStateMatcher({
-				pageUrl: {hostEquals: 'noticiasmagazine.pt'},
+				pageUrl: {hostEquals: 'www.noticiasmagazine.pt'},
 			}),
 			new chrome.declarativeContent.PageStateMatcher({
 				pageUrl: {hostEquals: 'selfie.iol.pt'},
@@ -88,6 +88,57 @@
 			}),
 			new chrome.declarativeContent.PageStateMatcher({
 				pageUrl: {hostEquals: 'tvi24.iol.pt'},
+			}),
+			new chrome.declarativeContent.PageStateMatcher({
+				pageUrl: {hostEquals: 'blitz.pt'},
+			}),
+			new chrome.declarativeContent.PageStateMatcher({
+				pageUrl: {hostEquals: 'cidade.iol.pt'},
+			}),
+			new chrome.declarativeContent.PageStateMatcher({
+				pageUrl: {hostEquals: 'www.evasoes.pt'},
+			}),
+			new chrome.declarativeContent.PageStateMatcher({
+				pageUrl: {hostEquals: 'm80.iol.pt'},
+			}),
+			new chrome.declarativeContent.PageStateMatcher({
+				pageUrl: {hostEquals: 'rr.sapo.pt'},
+			}),
+			new chrome.declarativeContent.PageStateMatcher({
+				pageUrl: {hostEquals: 'www.tsf.pt'},
+			}),
+			new chrome.declarativeContent.PageStateMatcher({
+				pageUrl: {hostEquals: 'rfm.sapo.pt'},
+			}),
+			new chrome.declarativeContent.PageStateMatcher({
+				pageUrl: {hostEquals: 'www.sabado.pt'},
+			}),
+			new chrome.declarativeContent.PageStateMatcher({
+				pageUrl: {hostEquals: 'www.sic.pt'},
+			}),
+			new chrome.declarativeContent.PageStateMatcher({
+				pageUrl: {hostEquals: 'sicmulher.pt'},
+			}),
+			new chrome.declarativeContent.PageStateMatcher({
+				pageUrl: {hostEquals: 'sicnoticias.pt'},
+			}),
+			new chrome.declarativeContent.PageStateMatcher({
+				pageUrl: {hostEquals: 'sicradical.pt'},
+			}),
+			new chrome.declarativeContent.PageStateMatcher({
+				pageUrl: {hostEquals: 'sickapa.pt'},
+			}),
+			new chrome.declarativeContent.PageStateMatcher({
+				pageUrl: {hostEquals: 'siccaras.pt'},
+			}),
+			new chrome.declarativeContent.PageStateMatcher({
+				pageUrl: {hostEquals: 'tviplayer.iol.pt'},
+			}),
+			new chrome.declarativeContent.PageStateMatcher({
+				pageUrl: {hostEquals: 'www.vidas.pt'},
+			}),
+			new chrome.declarativeContent.PageStateMatcher({
+				pageUrl: {hostEquals: 'www.ojogo.pt'},
 			})
         ],
         actions: [
@@ -98,32 +149,6 @@
     });
   });
 
-  
- // var toRemove = "";
-// var triesNonio = 0;
-// var triesCookies = 0;
-// var sucCount = 0;
-// remCookies();
- // function removeClass(elemName) {
-	// var elem = document.getElementsByClassName(elemName);
-	// elem[0].remove();
-// };
- // function remCookies() {
-	// document.body.style.cssText = 'overflow:auto !important';
-	// document.getElementsByTagName('html')[0].style.overflow = "auto";
-	// triesCookies = triesCookies + 1;
-	// try {
-		// removeClass("qc-cmp-ui-container qc-cmp-showing");
-		// triesCookies = 0;
-	// } catch(erro) {
-		// console.log("erro=" + erro);
-		// if (triesCookies < 5) {
-			// setTimeout(function() {
-				// remCookies();
-			// }, 500);
-		// }
-	// }
-// }
 
 
   
